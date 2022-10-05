@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', monospace, sans-serif;
+    margin: 0px;
+    color: #333333;
+}
+
+:root {
+    --primary-color: skyblue;
+}
+
+main {
+    max-width: 600px;
+    margin: auto;
+    /* box-sizing: border-box; */
+    padding: 1rem;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+    padding: 1rem;
+}
+
+.hero-img {
+    display: block;
+    max-width: 350px;
+    margin: auto;
+    background-color: var(--primary-color);
+    opacity: 0.8;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    font-size: 16px;
+    margin-top: 2rem;
+    min-height: 15vh;
+}
+
+button {
+    display: block;
+    background-color: var(--primary-color);
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    border-style: none;
+}
+
+#txt-output {
+    display: block;
+    min-height: 15vh;
+    max-height: 20vh;
+    border-style: solid;
+    border-color: black;
+    color: black;
+    border-width: 0.1rem;
+    overflow: scroll;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 1rem;
+}
+
+footer p {
+    max-width: 600px;
+    margin: auto;
+    font-size: small;
+}
